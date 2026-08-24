@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0px; 
+    padding: 0;
+    background-color: #E8EEF5;
+    
+}
+.section_style{ 
+    padding: 50px;
+    border-bottom: #C8D4E3 1px solid ;
+
+}
+
+.titre_section {
+    color: #0055CC;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #0055CC;
+    margin-bottom: 20px;
+    width: fit-content;
+    font-weight: 400;
+}
+.container {
+    margin: 50px 260px;
+    background-color: #ffffff;
+    border:#C8D4E3 solid 0.73px;
+    border-radius: 8px;
+}
+header{
+    background-color: #0055CC;
+    color: #ffffff;
+    padding: 50px 50px;
+    border-radius: 8px 8px 0 0;
+}
+header h1{
+    font-weight: 400;
+}
+header p{ 
+    color: #ffffffbb;
+    opacity: 0.71;
+}  
+ul {
+   display: flex;
+   list-style: none;
+   flex-direction: column;
+}
+ul li {
+    margin-bottom: 10px;
+    padding: 10px 16px;
+    background-color: #f5f8ff;
+    border-left: 5px solid #0055CC;
+}
+.mes_coordonnes p{ 
+    margin-bottom: 10px;
+}

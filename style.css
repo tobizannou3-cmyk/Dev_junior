@@ -1,0 +1,188 @@
+/* --------------Début Style all------------------- */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0px; 
+    padding: 0;
+    background-color: #E8EEF5;
+}
+
+/* Début style main */
+
+    /* margin: auto; */
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 260px;
+    margin-right: 260px; optimisation du code : au lieu de répéter les marges, 
+    on utilise la propriété margin en une seule ligne */
+    
+main {
+    margin: 50px 260px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+        /* --------------Fin Style main------------------- */
+
+
+        /* --------------Début Style Header------------------- */
+header {
+    height: 294px;
+    background-color: #0055CC;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    border: #c8d4e3 solid 0.73px;
+    border-radius: 8px 8px 0 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column; 
+
+}
+
+/* --------------Fin Style Header------------------- */
+
+/* --------------Début Style h1 du Header------------------- */
+header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-block; 
+    
+}
+/* --------------Fin Style h1 du Header------------------- */
+
+/* --------------Début Style h1 du Header------------------- */
+header h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+/* --------------Fin Style h1 du Header------------------- */
+
+/* --------------Début Style h1 du Header------------------- */
+header h3 {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* --------------Fin Style h1 du Header------------------- */
+
+header
+{
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    width: 80%;
+}
+ /* --------------Fin Style Header------------------- */
+.titre_section {
+    font-size: 1.8em;
+    color: #0055CC;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #0055CC;
+    margin-bottom: 20px;
+    width: fit-content; /* fit content permet d'ajuster la largeur du h3 en fonction de son contenu */
+    
+}
+ /* --------------Début block container------------------- */
+
+ .container {
+    padding: 0px 40px;
+}
+
+ /* --------------Fin block container------------------- */
+ 
+ /* --------------Début Style menu de navigation------------------- */
+
+nav{
+    padding: 24px 0px;
+    border-bottom: 1px solid #e0e8f5;
+}
+ /* --------------Fin Style menu de navigation------------------- */
+
+nav h4{
+    text-transform: uppercase;
+    color: #888888;
+    margin-bottom: 10px;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    color: #0055CC; 
+    list-style: none;
+}
+nav ul li{
+    margin-right: 10px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid #0055CC;
+    background-color: #f0f5ff;
+}
+
+nav ul li:hover{
+    background-color: #0055CC;
+    border: 1px solid #0055CC;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #0055CC; 
+    font-weight: 600;
+}
+
+nav ul li:hover a{
+    color: #ffffff; 
+}
+
+/* --------------debut style section profil------------------- */
+.section.profil {
+    padding: 20px 0px;
+    border-bottom: 1px solid #e0e8f5;
+   
+}
+.section.profil h3 {
+    font-size: 1.8em;
+    color: #0055CC;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #0055CC;
+    margin-bottom: 20px;
+    width: fit-content; /* fit content permet d'ajuster la largeur du h3 en fonction de son contenu */
+}
+.section.profil img {
+    display: block;
+    width: 100px;
+    height: auto;
+}
+#photo {
+    width: 50px;
+    height: 50px;
+    background-color: #030c1b;
+    border-radius: 100%;
+    border: 2px solid #0055CC;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+section.profil p {
+    padding: 10px 16px;
+    background-color: #f5f8ff;
+    border-left: 5px solid #0055CC;
+}
+/* --------------Fin Style section profil------------------- */
+
+#list_competences {
+   display: flex;
+   list-style: none;
+   flex-direction: column;
+}
+#list_competences li {
+    margin-bottom: 10px;
+    padding: 10px 16px;
+    background-color: #f5f8ff;
+    border-left: 5px solid #0055CC;
+}
